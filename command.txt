@@ -5,3 +5,4 @@ for eg
 if your going to fix any issue message "fix:mentionissue"
 if you are going to add any new feature message "feat:mentionfeature"
 # then i need to push to remote repository // git push origin branchname
+#if i need to pull the update if any other person pushed code i need to use // git pull origin main
