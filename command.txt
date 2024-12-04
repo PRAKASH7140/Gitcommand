@@ -1,4 +1,4 @@
-# first i need clone with repository
+# first i need clone with repository //git clone repository_url
 # and if i need to add new file  // git add . for all file // git add filename for specific file
 # then i need to commit with message // git commit -m "msg" // make reference in https://www.conventionalcommits.org/ 
 for eg 
@@ -12,5 +12,11 @@ if you are going to add any new feature message "feat:mentionfeature"
 # if i need to delete branch i need to use // git branch -d branchname
 # push the newly created branch into github // git push origin branchname
 # if i need to switch branch // git checkout branchname
+# Check the status of the working directory: // git status
+# View the commit history:// git log
+# Create and switch to a new branch: // git checkout -b new_branchname
+# Stage all changes and commit : git commit -am "message"
 
+
+#reset
 
