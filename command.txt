@@ -16,10 +16,38 @@ if you are going to add any new feature message "feat:mentionfeature"
 # View the commit history:// git log
 # Create and switch to a new branch: // git checkout -b new_branchname
 # Stage all changes and commit : git commit -am "message"
-Create a tag :// git tag v1.0
+# Create a tag :// git tag v1.0
+# Push tags to the remote repository://git push origin --tags
+# Reset 
+To unstage changes (but keep the file changes):// git reset HEAD filename
+To reset changes in the working directory (discard local changes)://git checkout -- filename
+To reset to a specific commit (undo commits but keep changes in working directory)://git reset commit_hash
+To hard reset to a specific commit (completely remove commits and changes)://git reset --hard commit_hash
 
 
+Remove a file from staging (but not from the working directory):
+git reset HEAD filename
 
+Discard changes in a file (revert to the last commit version):
+git checkout -- filename
 
-#reset
+Pull changes from the remote repository:
+git pull origin branchname
 
+Force push to a branch (be careful with this one):
+git push origin branchname --force
+
+View the differences between the working directory and the last commit:
+git diff
+
+Stash changes (save changes temporarily without committing):
+git stash
+
+Apply stashed changes:
+git stash apply
+
+Clear all stashed changes:
+git stash clear
+
+Clone a repository with submodules:
+git clone --recursive repository_url
