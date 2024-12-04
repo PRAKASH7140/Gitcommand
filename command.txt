@@ -1,1 +1,6 @@
-hi git 
+# first i need clone with repository
+# and if i need to add new file  // git add . for all file // git add filename for specific file
+# then i need to commit with message // git commit -m "msg" // make reference in https://www.conventionalcommits.org/ 
+for eg 
+if your going to fix any issue message "fix:mentionissue"
+if you are going to add any new feature message "feat:mentionfeature"
