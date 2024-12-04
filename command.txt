@@ -1,21 +1,24 @@
-# first i need clone with repository //git clone repository_url
-# and if i need to add new file  // git add . for all file // git add filename for specific file
-# then i need to commit with message // git commit -m "msg" // make reference in https://www.conventionalcommits.org/ 
+# first i need clone with repository ://git clone repository_url
+# and if i need to add new file :// git add . for all file :// git add filename for specific file
+# then i need to commit with message :// git commit -m "msg" :// make reference in https://www.conventionalcommits.org/ 
 for eg 
 if your going to fix any issue message "fix:mentionissue"
 if you are going to add any new feature message "feat:mentionfeature"
-# then i need to push to remote repository // git push origin branchname
-#if i need to pull the update if any other person pushed code i need to use // git pull origin main
-# if i need to check a current branch // git branch
-# if i need to merge two branch i need to use // git merge branchname
-# if i need to create new branch i need to use // git branch branchname
-# if i need to delete branch i need to use // git branch -d branchname
-# push the newly created branch into github // git push origin branchname
-# if i need to switch branch // git checkout branchname
+# then i need to push to remote repository :// git push origin branchname
+#if i need to pull the update if any other person pushed code i need to use :// git pull origin main
+# if i need to check a current branch :// git branch
+# if i need to merge two branch i need to use :// git merge branchname
+# if i need to create new branch i need to use :// git branch branchname
+# if i need to delete branch i need to use :// git branch -d branchname
+# push the newly created branch into github: // git push origin branchname
+# if i need to switch branch: // git checkout branchname
 # Check the status of the working directory: // git status
 # View the commit history:// git log
 # Create and switch to a new branch: // git checkout -b new_branchname
 # Stage all changes and commit : git commit -am "message"
+Create a tag :// git tag v1.0
+
+
 
 
 #reset
