@@ -51,3 +51,15 @@ git stash clear
 
 Clone a repository with submodules:
 git clone --recursive repository_url
+
+
+
+
+// git // local app 
+-
+-
+-
+// github // platform   store
+
+git config --global user.name "PRAKASH7140"
+git config --global user.email "email"
